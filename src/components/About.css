@@ -1,0 +1,61 @@
+.about {
+    background-color: #222; /* Match the global background color */
+    color: #fff; /* Text color matches the overall theme */
+    padding: 50px 20px;
+}
+
+.about-container {
+    max-width: 1000px; /* Consistent with global container */
+    margin: auto;
+    text-align: left;
+}
+
+.about-heading {
+    font-size: 2.5rem;
+    color: #ff0; /* Highlight heading in yellow */
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-section {
+    margin: 30px 0;
+}
+
+.about-section h3 {
+    font-size: 1.8rem;
+    color: #ff0; /* Section headings in yellow */
+    margin-bottom: 15px;
+}
+
+.about-section p,
+.about-section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.about-section ul {
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+.about-section ul li::before {
+    content: "• "; /* Add a bullet symbol */
+    color: #ff0; /* Yellow bullets */
+}
+
+.skills-list li {
+    font-size: 1.1rem;
+}
+
+.achievements-list li {
+    font-size: 1rem;
+    font-style: italic;
+}
