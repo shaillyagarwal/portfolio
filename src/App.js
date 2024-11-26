@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Clients from './components/Clients';
+import Certifications from './components/Certifications';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
             <Home />
             <About />
             <Portfolio />
-            <Clients />
+            <Certifications />
+            <Contact />
             <Footer />
         </div>
     );

@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Clients() {
+function Certifications() {
     return (
-        <section id="clients" className="container">
+        <section id="certifications" className="container">
             <h2>Certifications</h2>
             <p>This is the Certifications section.</p>
         </section>
     );
 }
 
-export default Clients;
+export default Certifications;
