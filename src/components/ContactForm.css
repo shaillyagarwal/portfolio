@@ -1,0 +1,52 @@
+.contact-form-section {
+    background-color: #222; /* Matches website theme */
+    color: #fff; /* Text color for contrast */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    color: #ff0; /* Yellow heading */
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #333; /* Dark input fields */
+    color: #fff; /* White text */
+  }
+  
+  .form-input::placeholder,
+  .form-textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff0; /* Yellow button */
+    color: #222; /* Dark text on button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #e5c700; /* Slightly darker yellow on hover */
+  }
+  

@@ -1,0 +1,19 @@
+.resume-download {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .resume-link {
+    text-decoration: none;
+    color: #222; /* Dark text */
+    background-color: #ff0; /* Yellow button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-link:hover {
+    background-color: #e5c700; /* Slightly darker yellow on hover */
+  }
+  

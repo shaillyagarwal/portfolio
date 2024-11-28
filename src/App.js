@@ -3,8 +3,9 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import ProjectShowcase from './components/ProjectShowcase.js';
-import Certifications from './components/Certifications';
+import ContactForm from './components/ContactForm';
 import Contact from './components/Contact';
+import ResumeDownload from './components/ResumeDownload';
 
 
 
@@ -16,7 +17,8 @@ function App() {
             <Home />
             <About />
             <ProjectShowcase />
-            <Certifications />
+            <ContactForm />
+            <ResumeDownload />
             <Contact />
             
         </div>
