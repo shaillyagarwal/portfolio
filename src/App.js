@@ -2,10 +2,12 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import ProjectShowcase from './components/ProjectShowcase.js';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+
+
+
 
 function App() {
     return (
@@ -13,10 +15,10 @@ function App() {
             <Navbar />
             <Home />
             <About />
-            <Portfolio />
+            <ProjectShowcase />
             <Certifications />
             <Contact />
-            <Footer />
+            
         </div>
     );
 }
